@@ -26,6 +26,24 @@ int main(void) {
 	return 1;
 }
 
+int getSum(int myArray[],int n);
+{
+  int sum=0;
+  for(int i=0;i<n;i++)
+    sum+=myArray[i];
+	return sum;
+}
+
+int getSumOfSquares(int myArray[],int n);
+{
+  int sum=0;
+  for(int i=0;i<=n;i++){
+    sum+=myArray[i]^2;
+  }
+	return sum;
+}
+
+
 double getAverage(int myArray[],int n);//updated by Srey Laut Chhom
 {
 	int sum=0;
@@ -73,6 +91,7 @@ void printGroupMemberNames() {
 	printf("Lihuy Tang\n ");
 	printf("Dane Saret\n ");
 	printf("Sreyteav Sry\n");
+	printf("Senghak Khat\n");
 	printf("That's it!\n");
 }
 
