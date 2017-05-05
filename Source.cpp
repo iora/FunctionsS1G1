@@ -44,6 +44,20 @@ void printAsChars(int myArray[],int n);
     print("%c",myArray[i]);
   }
 }
+float invertAllValues(int myArray[],int n); //updated by Sreyteav Sry
+{					// arrange the order of myarray
+  int i,j;
+  int arr[n];
+  for( i=0 , j = n-1;i <n;i++,j--)
+  {
+    arr[i]=myArray[j];
+  }
+  for(int k=0;k<n;k++)
+  {
+    myArray[k]=arr[k];
+  }
+  return 0.0;
+}
 int subtractAllValues(int myArray[],int n);
 {
   int sub=0;
@@ -58,6 +72,7 @@ void printGroupMemberNames() {
 	printf("sreylaut Chhom\n ");
 	printf("Lihuy Tang\n ");
 	printf("Dane Saret\n ");
+	printf("Sreyteav Sry\n");
 	printf("That's it!\n");
 }
 
