@@ -44,11 +44,20 @@ void printAsChars(int myArray[],int n);
     print("%c",myArray[i]);
   }
 }
+int subtractAllValues(int myArray[],int n);
+{
+  int sub=0;
+  for(int i=0;i<n;i++)
+  {
+    sub-=myArray[i];
+  }
+	return sub;
+}
 
 void printGroupMemberNames() {
 	printf("sreylaut Chhom\n ");
 	printf("Lihuy Tang\n ");
-	printf("Name3\n ");
+	printf("Dane Saret\n ");
 	printf("That's it!\n");
 }
 
